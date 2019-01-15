@@ -64,10 +64,6 @@ void setup(void) {
   Serial.begin(9600);
   delay(1000);
   wdt_disable();
-  Serial.println(F(""));
-  Serial.println(F("Firmware : TFB_ARD_v1.7"));
-  Serial.println(F("Company  : Avinashi Ventures Pvt Ltd"));
-  Serial.println(F("Author   : Dharmendra Savaliya"));
 
   SerialWifi.begin(9600);
   SerialWifi.end();
